@@ -1,0 +1,10 @@
+## Folders
+- **[util](bind/util.driver.md)**: The `util` folder in the `gson` codebase contains a test file, `ISO8601UtilsTest.java`, which is dedicated to unit testing the `ISO8601Utils` class for its ISO 8601 date formatting and parsing capabilities.
+
+## Files
+- **[DefaultDateTypeAdapterTest.java](bind/DefaultDateTypeAdapterTest.java.driver.md)**: The `DefaultDateTypeAdapterTest.java` file contains unit tests for the `DefaultDateTypeAdapter` class in the Gson library, focusing on date formatting and parsing across different locales and time zones.
+- **[Java17ReflectiveTypeAdapterFactoryTest.java](bind/Java17ReflectiveTypeAdapterFactoryTest.java.driver.md)**: The `Java17ReflectiveTypeAdapterFactoryTest.java` file contains unit tests for verifying the serialization and deserialization of Java Record classes using custom and default type adapters in the Gson library.
+- **[JsonElementReaderTest.java](bind/JsonElementReaderTest.java.driver.md)**: The `JsonElementReaderTest.java` file contains a suite of JUnit tests for verifying the functionality of the `JsonTreeReader` class in handling various JSON structures and data types, including numbers, strings, booleans, nulls, arrays, objects, and error conditions.
+- **[JsonTreeReaderTest.java](bind/JsonTreeReaderTest.java.driver.md)**: The `JsonTreeReaderTest.java` file contains unit tests for the `JsonTreeReader` class, verifying its behavior when reading and skipping JSON elements, handling custom subclasses, and ignoring nesting limits.
+- **[JsonTreeWriterTest.java](bind/JsonTreeWriterTest.java.driver.md)**: The `JsonTreeWriterTest.java` file contains a suite of unit tests for the `JsonTreeWriter` class in the Gson library, verifying its functionality in handling JSON arrays, objects, null values, strictness settings, and method overrides.
+- **[RecursiveTypesResolveTest.java](bind/RecursiveTypesResolveTest.java.driver.md)**: The `RecursiveTypesResolveTest.java` file contains unit tests for verifying the resolution of recursive generic types in Gson, addressing issues such as infinite recursion and `StackOverflowError` as described in GitHub Issue #440.
