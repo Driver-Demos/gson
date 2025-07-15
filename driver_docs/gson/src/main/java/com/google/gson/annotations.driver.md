@@ -1,0 +1,8 @@
+
+## Files
+- **[Expose.java](annotations/Expose.java.driver.md)**: The `Expose.java` file defines an annotation used in the Gson library to specify which fields should be included or excluded during JSON serialization and deserialization.
+- **[JsonAdapter.java](annotations/JsonAdapter.java.driver.md)**: The `JsonAdapter.java` file defines an annotation used in the Gson library to specify a custom `TypeAdapter`, `TypeAdapterFactory`, `JsonDeserializer`, or `JsonSerializer` for serializing and deserializing classes or fields.
+- **[package-info.java](annotations/package-info.java.driver.md)**: The `package-info.java` file in the `gson` codebase provides metadata and documentation for the `com.google.gson.annotations` package, indicating it contains annotations for use with the Gson library.
+- **[SerializedName.java](annotations/SerializedName.java.driver.md)**: The `SerializedName.java` file defines an annotation used in the Gson library to specify custom field names for JSON serialization and deserialization, including support for alternate names.
+- **[Since.java](annotations/Since.java.driver.md)**: The `Since.java` file defines an annotation used in the Gson library to specify the version number since a member or type has been present, aiding in JSON class versioning when used with `GsonBuilder`.
+- **[Until.java](annotations/Until.java.driver.md)**: The `Until.java` file defines an annotation used in the Gson library to specify a version number until which a field or type should be included in JSON serialization and deserialization, allowing for version management of JSON classes.

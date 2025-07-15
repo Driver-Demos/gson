@@ -1,0 +1,5 @@
+
+## Files
+- **[JsonReaderPathTest.java](stream/JsonReaderPathTest.java.driver.md)**: The `JsonReaderPathTest.java` file contains parameterized JUnit tests for verifying the path tracking functionality of the `JsonReader` class in the Gson library, ensuring correct path updates during JSON parsing operations.
+- **[JsonReaderTest.java](stream/JsonReaderTest.java.driver.md)**: The `JsonReaderTest.java` file contains a comprehensive suite of unit tests for the `JsonReader` class in the Gson library, verifying its behavior under various conditions, including strict and lenient modes, handling of malformed JSON, and edge cases like deeply nested structures and very long strings.
+- **[JsonWriterTest.java](stream/JsonWriterTest.java.driver.md)**: The `JsonWriterTest.java` file contains a comprehensive suite of unit tests for the `JsonWriter` class in the Gson library, verifying its behavior under various conditions including strictness settings, handling of different data types, and formatting styles.

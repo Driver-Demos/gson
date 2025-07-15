@@ -1,0 +1,7 @@
+
+## Files
+- **[build.yml](workflows/build.yml.driver.md)**: The `build.yml` file in the `gson` codebase defines a GitHub Actions workflow for building the project on multiple JDK versions, testing with GraalVM Native Image, and verifying reproducible builds using Maven.
+- **[check-android-compatibility.yml](workflows/check-android-compatibility.yml.driver.md)**: The `check-android-compatibility.yml` file defines a GitHub workflow for the `gson` codebase to check Android compatibility by running a Maven command on push and pull request events, while excluding certain branches and modules.
+- **[check-api-compatibility.yml](workflows/check-api-compatibility.yml.driver.md)**: The `check-api-compatibility.yml` file defines a GitHub Actions workflow to ensure that pull requests do not introduce incompatible changes to the public API of Gson by comparing the changes with the previous version using japicmp.
+- **[cifuzz.yml](workflows/cifuzz.yml.driver.md)**: The `cifuzz.yml` file in the `gson` codebase configures a GitHub Actions workflow to build and run fuzzers on pull requests using Google's OSS-Fuzz infrastructure, and uploads any crash artifacts if a failure occurs.
+- **[codeql-analysis.yml](workflows/codeql-analysis.yml.driver.md)**: The `codeql-analysis.yml` file in the `gson` codebase configures a GitHub Actions workflow to perform CodeQL analysis on Java code, triggered by pushes, pull requests, and a weekly schedule.
